@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harrison Ebube - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;700&family=Funnel+Display:wght@500;700&family=Archivo:wght@400&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="nav-left">
+          <div class="logo-section">
+            <div class="name-container">
+              <h1 class="name">Harrison<br />Ebube</h1>
+              <div class="name-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="nav-background"></div>
+          <a href="#about" class="nav-item">About</a>
+          <a href="#skills" class="nav-item">Skills</a>
+          <a href="#projects" class="nav-item">Projects</a>
+          <a href="#contact" class="nav-item">Contact</a>
+          <div class="theme-switch">
+            <div class="switch-track">
+              <div class="switch-sun">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                  <path d="M8.49984 12C6.2907 12 4.49984 10.2091 4.49984 7.99996C4.49984 5.79082 6.2907 3.99996 8.49984 3.99996C10.709 3.99996 12.4998 5.79082 12.4998 7.99996C12.4998 10.2091 10.709 12 8.49984 12ZM7.83317 0.666626H9.1665V2.66663H7.83317V0.666626ZM7.83317 13.3333H9.1665V15.3333H7.83317V13.3333ZM2.84298 3.28591L3.78579 2.34311L5.2 3.75732L4.2572 4.70013L2.84298 3.28591ZM11.7996 12.2426L12.7425 11.2998L14.1567 12.714L13.2139 13.6568L11.7996 12.2426ZM13.2139 2.34311L14.1567 3.28591L12.7425 4.70013L11.7996 3.75732L13.2139 2.34311ZM4.2572 11.2998L5.2 12.2426L3.78579 13.6568L2.84298 12.714L4.2572 11.2998ZM15.8332 7.33329V8.66663H13.8332V7.33329H15.8332ZM3.1665 7.33329V8.66663H1.1665V7.33329H3.1665Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="switch-moon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                  <path d="M7.16683 4.66671C7.16683 7.24404 9.25616 9.33337 11.8335 9.33337C13.1391 9.33337 14.3195 8.79717 15.1665 7.93304C15.1668 7.95537 15.1668 7.97771 15.1668 8.00004C15.1668 11.6819 12.182 14.6667 8.50016 14.6667C4.81826 14.6667 1.8335 11.6819 1.8335 8.00004C1.8335 4.31814 4.81826 1.33337 8.50016 1.33337C8.5225 1.33337 8.54483 1.33337 8.56716 1.3337C7.70303 2.18069 7.16683 3.36109 7.16683 4.66671ZM3.16683 8.00004C3.16683 10.9456 5.55464 13.3334 8.50016 13.3334C10.539 13.3334 12.3107 12.1893 13.2082 10.5081C12.7632 10.6125 12.3025 10.6667 11.8335 10.6667C8.51976 10.6667 5.8335 7.98044 5.8335 4.66671C5.8335 4.19769 5.88772 3.73702 5.9921 3.29204C4.3109 4.18953 3.16683 5.96117 3.16683 8.00004Z" fill="#3C3C43" fill-opacity="0.6"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-right">
+          <a href="#contact" class="lets-talk-btn">
+            <span>Let's Talk</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none">
+                <path d="M2.88717 8.01378C2.88717 8.66959 2.78282 9.30815 2.57411 9.92944C2.3654 10.5464 2.06277 11.1138 1.66622 11.6315C1.51595 11.83 1.34689 11.9573 1.15905 12.0134C0.97539 12.0651 0.797987 12.063 0.626845 12.0069C0.455703 11.9465 0.311693 11.8473 0.194816 11.7092C0.0821124 11.5711 0.0194995 11.4093 0.00697687 11.2238C-0.00554572 11.034 0.0570672 10.8398 0.194816 10.6413C0.541274 10.1581 0.78129 9.71587 0.914864 9.31462C1.05261 8.90905 1.12149 8.47544 1.12149 8.01378C1.12149 7.55213 1.05261 7.12067 0.914864 6.71942C0.78129 6.31385 0.541274 5.86946 0.194816 5.38623C0.0570672 5.18776 -0.00763281 4.99576 0.000715576 4.81024C0.0132382 4.6204 0.0758511 4.45644 0.188554 4.31838C0.305432 4.18031 0.449442 4.08323 0.620584 4.02715C0.791726 3.96674 0.971216 3.96243 1.15905 4.0142C1.34689 4.06598 1.51595 4.19541 1.66622 4.40251C2.06277 4.91594 2.3654 5.48115 2.57411 6.09813C2.78282 6.71511 2.88717 7.35366 2.88717 8.01378ZM6.44359 8.01378C6.44359 9.05359 6.28705 10.0524 5.97399 11.0102C5.6651 11.9681 5.21846 12.8374 4.63407 13.6184C4.4671 13.847 4.28344 13.9894 4.08308 14.0455C3.88272 14.1059 3.69279 14.1038 3.5133 14.039C3.33381 13.9786 3.18771 13.8729 3.07501 13.7219C2.96231 13.5752 2.90387 13.4026 2.89969 13.2042C2.89969 13.01 2.979 12.8137 3.13762 12.6152C3.63853 11.981 4.02047 11.2734 4.28344 10.4925C4.54641 9.70724 4.6779 8.88101 4.6779 8.01378C4.6779 7.14656 4.54641 6.32248 4.28344 5.54155C4.02047 4.7563 3.63853 4.0444 3.13762 3.40585C2.979 3.20738 2.89969 3.01107 2.89969 2.81692C2.90387 2.61845 2.96231 2.44587 3.07501 2.29917C3.18771 2.14816 3.33381 2.04246 3.5133 1.98205C3.69279 1.91733 3.88272 1.91518 4.08308 1.97558C4.28344 2.03598 4.4671 2.18052 4.63407 2.40919C5.21846 3.19444 5.6651 4.06598 5.97399 5.02381C6.28705 5.97732 6.44359 6.97398 6.44359 8.01378ZM10 8.01378C10 9.41169 9.79129 10.7514 9.37387 12.0328C8.96063 13.3142 8.3658 14.4856 7.5894 15.547C7.42661 15.7627 7.24712 15.8986 7.05093 15.9547C6.85474 16.0151 6.66691 16.0151 6.48741 15.9547C6.3121 15.8943 6.166 15.7907 6.04912 15.6441C5.93642 15.4974 5.87798 15.3269 5.87381 15.1328C5.87381 14.9386 5.95103 14.7423 6.10548 14.5438C6.80674 13.6205 7.33686 12.6088 7.69584 11.5086C8.05482 10.404 8.23432 9.23911 8.23432 8.01378C8.23432 6.78845 8.05274 5.62353 7.68958 4.519C7.3306 3.41448 6.79422 2.39409 6.08043 1.45784C5.92181 1.25505 5.84459 1.05874 5.84876 0.868901C5.85294 0.674746 5.91138 0.504322 6.02408 0.357628C6.14096 0.210933 6.28914 0.107384 6.46863 0.0469806C6.64812 -0.013423 6.83387 -0.0155803 7.02589 0.0405088C7.22207 0.0965978 7.39739 0.230349 7.55183 0.441761C8.34911 1.5204 8.95645 2.70258 9.37387 3.98831C9.79129 5.27405 10 6.61587 10 8.01378Z" fill="black"/>
+              </svg>
+            </a>
+        </div>
+      </nav>
+
+      <!-- Bento Grid -->
+      <main class="bento-grid">
+        <!-- First Row -->
+        <div class="bento-row first-row" id="about">
+          <!-- Profile Image Card -->
+          <div class="bento-card reveal profile-image-card">
+            <img
+              src="images/profile-image-me.jpeg"
+              alt="Harrison Ebube"
+              class="profile-image" />
+          </div>
+
+          <!-- Profile Content Card -->
+          <div class="bento-card reveal profile-content-card">
+            <h2 class="profile-title">Founder | Mobile, Web<br />&amp; Smart Contract Developer</h2>
+            <p class="profile-description">
+              Harrison is a software engineer and technology founder with <strong>10+ years</strong> of experience building secure, scalable, and high-performance digital solutions across fintech, healthcare, agriculture, investment, and blockchain.
+            </p>
+            <p class="profile-description">
+              He specializes in <strong>mobile and web development</strong>, <strong>smart contracts</strong>, cloud technologies, cybersecurity, and enterprise systems. As the founder of <strong>AutoDistress</strong> and <strong>Faceless Counselling</strong>, he combines engineering expertise with product innovation to transform real-world challenges into impactful technology solutions.
+            </p>
+            <p class="profile-description">
+              With experience spanning software architecture, network infrastructure, product strategy, and digital transformation, Harrison delivers reliable end-to-end solutions—from concept and development to deployment and long-term scalability.
+            </p>
+          </div>
+
+          <!-- Weather Widget -->
+          <div class="bento-card reveal weather-card">
+            <div class="weather-top">
+              <div class="location-container">
+                <span class="location-eyebrow">Based in</span>
+                <div class="location-text">Lagos, NG</div>
+                <div class="timezone-text">GMT+1</div>
+              </div>
+              <div class="temperature" id="temperature">--º</div>
+            </div>
+
+            <div class="weather-time-block">
+              <span class="time-display" id="current-time">12:00</span>
+              <span class="time-period" id="time-period">PM</span>
+            </div>
+
+            <div class="weather-progress" aria-hidden="true">
+              <div class="separator-line"></div>
+              <div class="separator-dot"></div>
+            </div>
+
+            <div class="weather-footer">
+              <span class="weather-day" id="current-day">Wednesday</span>
+              <span class="weather-live">
+                <span class="live-dot"></span>
+                Local time
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="bento-row second-row" id="skills">
+          <!-- Tech Stack Card -->
+          <div class="bento-card reveal tech-stack-card">
+            <div class="tech-header">
+              <h3 class="tech-title">Technology Stack</h3>
+              <p class="tech-subtitle">Skills & Tools</p>
+            </div>
+            <div class="tech-stack">
+              <img
+                class="tech-stack-image"
+                src="./images/tech stack.png"
+                alt="Tech Stack" />
+            </div>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="bento-card reveal github-card">
+            <div class="github-content">
+              <div class="github-text">
+                <h3 class="github-title">EXPLORE MY GIT</h3>
+              </div>
+              <div class="github-visualization">
+                <svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210" fill="none">
+                  <circle cx="105" cy="105" r="75.75" stroke="white" stroke-opacity="0.1" stroke-width="0.5"/>
+                  <circle cx="105" cy="105" r="104.75" stroke="white" stroke-opacity="0.05" stroke-width="0.5"/>
+                  <circle cx="105" cy="105" r="54.75" stroke="white" stroke-opacity="0.2" stroke-width="0.5"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M104.711 65C82.1991 65 64 83.3333 64 106.014C64 124.144 75.6608 139.491 91.8374 144.922C93.8599 145.33 94.6007 144.04 94.6007 142.954C94.6007 142.003 94.534 138.744 94.534 135.348C83.2091 137.793 80.8508 130.459 80.8508 130.459C79.0308 125.706 76.3341 124.484 76.3341 124.484C72.6275 121.971 76.6041 121.971 76.6041 121.971C80.7158 122.243 82.8733 126.181 82.8733 126.181C86.5124 132.428 92.3765 130.663 94.7357 129.576C95.0724 126.928 96.1515 125.095 97.2974 124.076C88.2649 123.126 78.7616 119.595 78.7616 103.841C78.7616 99.359 80.3783 95.6924 82.9399 92.8407C82.5358 91.8224 81.1199 87.6116 83.3449 81.9758C83.3449 81.9758 86.7824 80.8891 94.5332 86.1857C97.8516 85.288 101.274 84.8313 104.711 84.8274C108.149 84.8274 111.653 85.3032 114.889 86.1857C122.641 80.8891 126.078 81.9758 126.078 81.9758C128.303 87.6116 126.886 91.8224 126.482 92.8407C129.111 95.6924 130.661 99.359 130.661 103.841C130.661 119.595 121.158 123.057 112.058 124.076C113.541 125.366 114.821 127.811 114.821 131.681C114.821 137.181 114.755 141.596 114.755 142.953C114.755 144.04 115.496 145.33 117.518 144.923C133.695 139.49 145.355 124.144 145.355 106.014C145.422 83.3333 127.156 65 104.711 65Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="github-button">
+                <a href="https://github.com/" target="_blank" class="github-btn" aria-label="Harrison Ebube on GitHub">
+                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.76485 1.23633L1.23633 8.76485" stroke="#0D1117" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.47949 1.19824L8.76475 1.23523L8.80274 6.52049" stroke="#0D1117" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- Resume Card -->
+          <div class="bento-card reveal resume-card">
+            <div class="resume-header">
+              <h3 class="resume-title">My Resume</h3>
+            </div>
+            <div class="resume-content">
+              <div class="resume-actions">
+                <div class="resume-buttons">
+                  <div class="resume-button-group">
+                    <a href="#" class="resume-btn" aria-label="View Harrison Ebube resume">
+                      <span>View</span>
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none">
+                        <path
+                          d="M7 11L11 7M11 7H7M11 7V11"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                  </div>
+                  <!-- <div class="resume-button-group">
+                    <button class="resume-btn">
+                      <span>Download</span>
+                      <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none">
+                        <path
+                          d="M7 11L11 7M11 7H7M11 7V11"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </svg>
+                    </button>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="bento-row third-row" id="projects">
+          <!-- Projects Section -->
+          <div class="bento-card reveal projects-card">
+            <div class="projects-header">
+              <h3 class="projects-title">Projects Showcase</h3>
+            </div>
+            <div class="projects-grid">
+              <!-- Toronet -->
+              <div class="project-item">
+                <a href="https://website.toronet.org/" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image toronet-bg">
+                    <div class="project-overlay"></div>
+                    <div class="toronet-cover-label">Toronet</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://website.toronet.org/" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon toronet-icon">
+                      <img src="./images/toronet-logo.png" alt="Toronet" width="40" height="12">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://website.toronet.org/" target="_blank" rel="noopener noreferrer">Toronet</a>
+                    </h4>
+                    <p class="project-description">
+                      Open fintech &amp; layer-1 blockchain platform built for emerging markets
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">100K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$75M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- The Restore Capital -->
+              <div class="project-item">
+                <a href="https://therestorecapital.com/" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image restore-bg">
+                    <video
+                      class="restore-cover-video"
+                      src="./images/Macbook-Air-www.rc.test-5dssrbqga2anxj.webm"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                      aria-label="The Restore Capital demo"></video>
+                    <div class="project-overlay"></div>
+                    <div class="restore-cover-label">The Restore Capital</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://therestorecapital.com/" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon restore-icon">
+                      <img src="./images/restore-logo.png" alt="The Restore Capital" width="40" height="24">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://therestorecapital.com/" target="_blank" rel="noopener noreferrer">The Restore Capital</a>
+                    </h4>
+                    <p class="project-description">
+                      Structured long-term investing to build wealth, security &amp; stability for people
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">2K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$500M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- GEEP Farmermoni -->
+              <div class="project-item">
+                <a href="https://agrifiafrica.com/geep/index.php" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image geep-bg">
+                    <div class="project-overlay"></div>
+                    <div class="geep-cover-label">GEEP Farmermoni</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://agrifiafrica.com/geep/index.php" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon geep-icon">
+                      <img src="./images/geep-logo.png" alt="GEEP Farmermoni" width="40" height="16">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://agrifiafrica.com/geep/index.php" target="_blank" rel="noopener noreferrer">GEEP Farmermoni</a>
+                    </h4>
+                    <p class="project-description">
+                      Federal program for GEEP FarmerMoni beneficiary revalidation &amp; admin operations
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">50K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$18M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- USAID Feed the Future -->
+              <div class="project-item">
+                <a href="https://agrifiafrica.com/aspiration/index.php" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image usaid-bg">
+                    <div class="project-overlay"></div>
+                    <div class="usaid-cover-label">USAID Feed the Future</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://agrifiafrica.com/aspiration/index.php" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon usaid-icon">
+                      <img src="./images/usaid-logo.png" alt="USAID Feed the Future" width="32" height="32">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://agrifiafrica.com/aspiration/index.php" target="_blank" rel="noopener noreferrer">USAID Feed the Future</a>
+                    </h4>
+                    <p class="project-description">
+                      Finance pools of smallholder farmers and drive sustainable agricultural growth
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">35K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$22M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Katsina State Market System -->
+              <div class="project-item">
+                <a href="https://agrifiafrica.com/katsina/index.php" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image katsina-bg">
+                    <div class="project-overlay"></div>
+                    <div class="katsina-cover-label">Katsina Market System</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://agrifiafrica.com/katsina/index.php" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon katsina-icon">
+                      <img src="./images/agrifi-logo.png" alt="Katsina State Market System" width="40" height="16">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://agrifiafrica.com/katsina/index.php" target="_blank" rel="noopener noreferrer">Katsina Market System</a>
+                    </h4>
+                    <p class="project-description">
+                      Market-system program in partnership with Katsina State government
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">12K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$8.5M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Omega -->
+              <div class="project-item">
+                <a href="https://agrifiafrica.com/metro/index.php" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image omega-bg">
+                    <div class="project-overlay"></div>
+                    <div class="omega-cover-label">Project Omega</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://agrifiafrica.com/metro/index.php" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon omega-icon">
+                      <img src="./images/agrifi-logo.png" alt="Project Omega" width="40" height="16">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://agrifiafrica.com/metro/index.php" target="_blank" rel="noopener noreferrer">Project Omega</a>
+                    </h4>
+                    <p class="project-description">
+                      Uni-Abuja Young Agropreneur &amp; Livestockpreneur Scheme
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">3.2K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$2.1M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AutoDistress -->
+              <div class="project-item">
+                <a href="https://www.autodistress.com/" target="_blank" rel="noopener noreferrer">
+                  <div class="project-image autodistress-bg">
+                    <div class="project-overlay"></div>
+                    <div class="autodistress-cover-label">AutoDistress</div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://www.autodistress.com/" target="_blank" rel="noopener noreferrer">
+                    <div class="project-icon autodistress-icon">
+                      <img src="./images/autodistress-logo.png" alt="AutoDistress" width="40" height="40">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://www.autodistress.com/" target="_blank" rel="noopener noreferrer">AutoDistress</a>
+                    </h4>
+                    <p class="project-description">
+                      On-demand platform connecting vehicle owners with trusted auto professionals
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">18K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$4.2M</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Remedial Health -->
+              <div class="project-item">
+                <a href="https://remedial.health" target="_blank">
+                  <div class="project-image remedial-bg">
+                    <div class="project-overlay"></div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://remedial.health" target="_blank">
+                    <div class="project-icon remedial-icon">
+                      <svg
+                        width="22"
+                        height="24"
+                        viewBox="0 0 22 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.125 14.6233V17.3316C17.125 17.5187 17.1164 17.7041 17.0989 17.8865C16.8179 20.9652 14.2177 23.3854 11.0626 23.3854C7.91857 23.3854 5.32591 20.9816 5.02985 17.9179C2.29989 17.3316 0.25 14.9003 0.25 12.0017C0.25 9.10296 2.3006 6.6731 5.03092 6.08393C5.45169 5.99336 5.88091 5.94776 6.31134 5.94789H7.39439C7.34437 6.19241 7.31945 6.44139 7.32001 6.69095V9.44789C7.32001 9.7551 7.19781 10.0497 6.98028 10.267C6.76275 10.4842 6.46772 10.6062 6.16009 10.6062C5.85246 10.6062 5.55743 10.4842 5.33991 10.267C5.12238 10.0497 5.00017 9.7551 5.00017 9.44789V8.50237C4.28665 8.76928 3.67173 9.24736 3.23763 9.87268C2.80352 10.498 2.57092 11.2408 2.57092 12.0017C2.57092 12.7625 2.80352 13.5053 3.23763 14.1306C3.67173 14.7559 4.28665 15.234 5.00017 15.5009C5.41928 15.6585 5.86353 15.7388 6.31134 15.738H8.09592C8.40007 15.7434 8.68996 15.8678 8.90316 16.0844C9.11637 16.3011 9.23583 16.5928 9.23583 16.8965C9.23583 17.2003 9.11637 17.492 8.90316 17.7086C8.68996 17.9253 8.40007 18.0497 8.09592 18.0551H7.39045C7.5704 18.9657 8.08326 19.7769 8.82919 20.3307C9.57512 20.8845 10.5007 21.1412 11.4258 21.051C12.3509 20.9607 13.2092 20.5299 13.8337 19.8423C14.4582 19.1548 14.8041 18.2598 14.8041 17.3316V14.6233C14.8041 14.3161 14.9263 14.0214 15.1438 13.8042C15.3613 13.587 15.6564 13.4649 15.964 13.4649C16.2716 13.4649 16.5667 13.587 16.7842 13.8042C17.0017 14.0214 17.1239 14.3161 17.1239 14.6233H17.125Z"
+                          fill="white" />
+                        <path
+                          d="M11.0664 0.614746C14.2164 0.614746 16.8137 3.02836 17.1035 6.104V6.10596L17.3515 6.17041C19.8883 6.89451 21.7498 9.23432 21.75 12.0005C21.75 14.8551 19.7672 17.2563 17.1054 17.897C17.123 17.7142 17.1318 17.5278 17.1318 17.3403V15.4546C17.8125 15.1696 18.3939 14.689 18.8027 14.0747C19.2113 13.4605 19.4296 12.7392 19.4297 12.0015C19.4297 11.2636 19.2115 10.5416 18.8027 9.92725C18.3942 9.31333 17.8128 8.8344 17.1328 8.54932L16.959 8.48096C16.5514 8.33321 16.12 8.25759 15.6855 8.2583H13.8515C13.5438 8.25828 13.2488 8.13606 13.0312 7.91846C12.8137 7.70085 12.6914 7.40585 12.6914 7.09814C12.6914 6.79044 12.8136 6.49542 13.0312 6.27783C13.2488 6.06026 13.5438 5.93801 13.8515 5.93799H14.7363C14.5647 5.09134 14.1052 4.32954 13.4365 3.78271C12.7678 3.236 11.9301 2.93799 11.0664 2.93799C10.2026 2.93804 9.36495 3.23594 8.69626 3.78271C8.02755 4.32953 7.56899 5.09137 7.39743 5.93799H6.31442C5.88387 5.93727 5.45419 5.98262 5.03317 6.07275C5.33759 3.01215 7.92673 0.614778 11.0664 0.614746Z"
+                          fill="#88DC32" />
+                      </svg>
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://remedial.health" target="_blank"
+                        >Remedial Health</a
+                      >
+                    </h4>
+                    <p class="project-description">
+                      Mobile App Digitizing pharmaceutical supply in Africa
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">50K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$85M+</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Faceless Counselling -->
+              <div class="project-item">
+                <a href="https://facelesscounselling.com/" target="_blank">
+                  <div class="project-image faceless-bg">
+                    <div class="project-overlay"></div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://facelesscounselling.com/" target="_blank">
+                    <div class="project-icon faceless-icon">
+                      <img src="./images/faceless-counselling-logo.png" alt="Faceless Counselling" width="32" height="26">
+                    </div>
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                      <a href="https://facelesscounselling.com/" target="_blank"
+                        >Faceless Counselling</a
+                      >
+                    </h4>
+                    <p class="project-description">
+                      A Safe space to express feelings & experiences to help deal with life challenges
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">8.5K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$1.4M</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Savewyze -->
+              <div class="project-item">
+                <a href="https://savewyze.com/" target="_blank">
+                  <div class="project-image savewyze-bg">
+                    <!-- <div class="project-overlay"></div> -->
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://savewyze.com/" target="_blank">
+                    <!-- <div class="project-icon savewyze-icon"> -->
+                      <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.333496" width="48" height="48" rx="14" fill="#7626D5"/>
+                        <rect x="12.8335" y="10" width="23" height="28" fill="url(#pattern0_390_402)"/>
+                        <defs>
+                        <pattern id="pattern0_390_402" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_390_402" transform="matrix(0.0322581 0 0 0.0263158 -0.0100868 0)"/>
+                        </pattern>
+                        <image id="image0_390_402" width="159" height="38" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                      </defs>
+                      </svg>
+                    <!-- </div> -->
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                        <a href="https://savewyze.com/" target="_blank">Savewyze</a>
+                    </h4>
+                    <p class="project-description">
+                      Set aside funds for special occasions and emergencies
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">25K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$8.5M</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Astra App -->
+              <div class="project-item">
+                <a href="https://getatra.com/" target="_blank">
+                  <div class="project-image astra-bg">
+                    <div class="project-overlay"></div>
+                  </div>
+                </a>
+                <div class="project-info">
+                  <a href="https://getatra.com/" target="_blank">
+                    <!-- <div class="project-icon astra-icon"> -->
+                      <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="path-1-inside-1_399_417" fill="white">
+                          <path d="M0.666504 22.4C0.666504 14.5593 0.666504 10.6389 2.19241 7.64413C3.53464 5.00986 5.67637 2.86814 8.31064 1.52591C11.3054 0 15.2258 0 23.0665 0H26.2665C34.1072 0 38.0276 0 41.0224 1.52591C43.6566 2.86814 45.7984 5.00986 47.1406 7.64413C48.6665 10.6389 48.6665 14.5593 48.6665 22.4V25.6C48.6665 33.4407 48.6665 37.3611 47.1406 40.3559C45.7984 42.9901 43.6566 45.1319 41.0224 46.4741C38.0276 48 34.1072 48 26.2665 48H23.0665C15.2258 48 11.3054 48 8.31064 46.4741C5.67637 45.1319 3.53464 42.9901 2.19241 40.3559C0.666504 37.3611 0.666504 33.4407 0.666504 25.6V22.4Z"/>
+                        </mask>
+                        <g clip-path="url(#paint0_angular_399_417_clip_path)" data-figma-skip-parse="true"><g transform="matrix(0.024333 0.024 -0.024 0.024333 24.6665 24)"><foreignObject x="-1034.44" y="-1034.44" width="2068.88" height="2068.88"><div xmlns="http://www.w3.org/1999/xhtml" style="background:conic-gradient(from 90deg,rgba(255, 255, 255, 1) 0deg,rgba(208, 112, 0, 1) 360deg);height:100%;width:100%;opacity:1"></div></foreignObject></g></g><path d="M0.666504 22.4C0.666504 14.5593 0.666504 10.6389 2.19241 7.64413C3.53464 5.00986 5.67637 2.86814 8.31064 1.52591C11.3054 0 15.2258 0 23.0665 0H26.2665C34.1072 0 38.0276 0 41.0224 1.52591C43.6566 2.86814 45.7984 5.00986 47.1406 7.64413C48.6665 10.6389 48.6665 14.5593 48.6665 22.4V25.6C48.6665 33.4407 48.6665 37.3611 47.1406 40.3559C45.7984 42.9901 43.6566 45.1319 41.0224 46.4741C38.0276 48 34.1072 48 26.2665 48H23.0665C15.2258 48 11.3054 48 8.31064 46.4741C5.67637 45.1319 3.53464 42.9901 2.19241 40.3559C0.666504 37.3611 0.666504 33.4407 0.666504 25.6V22.4Z" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:1.0,&#34;b&#34;:1.0,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.81803745031356812,&#34;g&#34;:0.44078719615936279,&#34;b&#34;:0.0,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:1.0,&#34;b&#34;:1.0,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.81803745031356812,&#34;g&#34;:0.44078719615936279,&#34;b&#34;:0.0,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:48.6660156250,&#34;m01&#34;:-48.0,&#34;m02&#34;:24.333496093750,&#34;m10&#34;:48.0,&#34;m11&#34;:48.6660156250,&#34;m12&#34;:-24.33300781250},&#34;opacity&#34;:1.0,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"/>
+                        <g clip-path="url(#paint1_angular_399_417_clip_path)" data-figma-skip-parse="true" mask="url(#path-1-inside-1_399_417)"><g transform="matrix(0.024333 0.024 -0.024 0.024333 24.6665 24)"><foreignObject x="-1034.44" y="-1034.44" width="2068.88" height="2068.88"><div xmlns="http://www.w3.org/1999/xhtml" style="background:conic-gradient(from 90deg,rgba(255, 255, 255, 1) 0deg,rgba(208, 112, 0, 1) 360deg);height:100%;width:100%;opacity:1"></div></foreignObject></g></g><path d="M47.1406 40.3559L48.0316 40.8099L47.1406 40.3559ZM41.0224 46.4741L41.4764 47.3651L41.0224 46.4741ZM47.1406 7.64413L46.2496 8.09812L47.1406 7.64413ZM23.0665 0V1H26.2665V0V-1H23.0665V0ZM48.6665 22.4H47.6665V25.6H48.6665H49.6665V22.4H48.6665ZM26.2665 48V47H23.0665V48V49H26.2665V48ZM0.666504 25.6H1.6665V22.4H0.666504H-0.333496V25.6H0.666504ZM23.0665 48V47C19.1296 47 16.2371 46.9992 13.9528 46.8126C11.6801 46.6269 10.0975 46.2622 8.76463 45.5831L8.31064 46.4741L7.85665 47.3651C9.5185 48.2119 11.3935 48.6101 13.7899 48.8059C16.1746 49.0008 19.1626 49 23.0665 49V48ZM0.666504 25.6H-0.333496C-0.333496 29.5039 -0.334274 32.4919 -0.139436 34.8766C0.0563548 37.273 0.454651 39.148 1.30141 40.8099L2.19241 40.3559L3.08342 39.9019C2.40427 38.569 2.03961 36.9864 1.85392 34.7137C1.66728 32.4294 1.6665 29.5369 1.6665 25.6H0.666504ZM8.31064 46.4741L8.76463 45.5831C6.31852 44.3367 4.32977 42.348 3.08342 39.9019L2.19241 40.3559L1.30141 40.8099C2.73951 43.6323 5.03421 45.927 7.85665 47.3651L8.31064 46.4741ZM48.6665 25.6H47.6665C47.6665 29.5369 47.6657 32.4294 47.4791 34.7137C47.2934 36.9864 46.9287 38.569 46.2496 39.9019L47.1406 40.3559L48.0316 40.8099C48.8784 39.148 49.2767 37.273 49.4724 34.8766C49.6673 32.4919 49.6665 29.5039 49.6665 25.6H48.6665ZM26.2665 48V49C30.1704 49 33.1584 49.0008 35.5431 48.8059C37.9395 48.6101 39.8145 48.2119 41.4764 47.3651L41.0224 46.4741L40.5684 45.5831C39.2355 46.2622 37.6529 46.6269 35.3802 46.8126C33.0959 46.9992 30.2034 47 26.2665 47V48ZM47.1406 40.3559L46.2496 39.9019C45.0032 42.348 43.0145 44.3367 40.5684 45.5831L41.0224 46.4741L41.4764 47.3651C44.2988 45.927 46.5935 43.6323 48.0316 40.8099L47.1406 40.3559ZM26.2665 0V1C30.2034 1 33.0959 1.00078 35.3802 1.18742C37.6529 1.3731 39.2355 1.73776 40.5684 2.41692L41.0224 1.52591L41.4764 0.634902C39.8145 -0.211853 37.9395 -0.610149 35.5431 -0.80594C33.1584 -1.00078 30.1704 -1 26.2665 -1V0ZM48.6665 22.4H49.6665C49.6665 18.4961 49.6673 15.5081 49.4724 13.1234C49.2767 10.727 48.8784 8.85199 48.0316 7.19014L47.1406 7.64413L46.2496 8.09812C46.9287 9.43104 47.2934 11.0136 47.4791 13.2863C47.6657 15.5706 47.6665 18.4631 47.6665 22.4H48.6665ZM41.0224 1.52591L40.5684 2.41692C43.0145 3.66327 45.0032 5.65202 46.2496 8.09812L47.1406 7.64413L48.0316 7.19014C46.5935 4.36771 44.2988 2.073 41.4764 0.634902L41.0224 1.52591ZM23.0665 0V-1C19.1626 -1 16.1746 -1.00078 13.7899 -0.80594C11.3935 -0.610149 9.5185 -0.211853 7.85665 0.634902L8.31064 1.52591L8.76463 2.41692C10.0975 1.73776 11.6801 1.3731 13.9528 1.18742C16.2371 1.00078 19.1296 1 23.0665 1V0ZM0.666504 22.4H1.6665C1.6665 18.4631 1.66728 15.5706 1.85392 13.2863C2.03961 11.0136 2.40427 9.43104 3.08342 8.09812L2.19241 7.64413L1.30141 7.19014C0.454651 8.85199 0.0563548 10.727 -0.139436 13.1234C-0.334274 15.5081 -0.333496 18.4961 -0.333496 22.4H0.666504ZM8.31064 1.52591L7.85665 0.634902C5.03421 2.073 2.73951 4.36771 1.30141 7.19014L2.19241 7.64413L3.08342 8.09812C4.32977 5.65202 6.31852 3.66327 8.76463 2.41692L8.31064 1.52591Z" data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:1.0,&#34;b&#34;:1.0,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.81803745031356812,&#34;g&#34;:0.44078719615936279,&#34;b&#34;:0.0,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:1.0,&#34;b&#34;:1.0,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.81803745031356812,&#34;g&#34;:0.44078719615936279,&#34;b&#34;:0.0,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:48.6660156250,&#34;m01&#34;:-48.0,&#34;m02&#34;:24.333496093750,&#34;m10&#34;:48.0,&#34;m11&#34;:48.6660156250,&#34;m12&#34;:-24.33300781250},&#34;opacity&#34;:1.0,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}" mask="url(#path-1-inside-1_399_417)"/>
+                        <rect x="9.1665" y="11" width="31" height="26" fill="url(#pattern0_399_417)"/>
+                        <defs>
+                          <clipPath id="paint0_angular_399_417_clip_path"><path d="M0.666504 22.4C0.666504 14.5593 0.666504 10.6389 2.19241 7.64413C3.53464 5.00986 5.67637 2.86814 8.31064 1.52591C11.3054 0 15.2258 0 23.0665 0H26.2665C34.1072 0 38.0276 0 41.0224 1.52591C43.6566 2.86814 45.7984 5.00986 47.1406 7.64413C48.6665 10.6389 48.6665 14.5593 48.6665 22.4V25.6C48.6665 33.4407 48.6665 37.3611 47.1406 40.3559C45.7984 42.9901 43.6566 45.1319 41.0224 46.4741C38.0276 48 34.1072 48 26.2665 48H23.0665C15.2258 48 11.3054 48 8.31064 46.4741C5.67637 45.1319 3.53464 42.9901 2.19241 40.3559C0.666504 37.3611 0.666504 33.4407 0.666504 25.6V22.4Z"/></clipPath><clipPath id="paint1_angular_399_417_clip_path"><path d="M47.1406 40.3559L48.0316 40.8099L47.1406 40.3559ZM41.0224 46.4741L41.4764 47.3651L41.0224 46.4741ZM47.1406 7.64413L46.2496 8.09812L47.1406 7.64413ZM23.0665 0V1H26.2665V0V-1H23.0665V0ZM48.6665 22.4H47.6665V25.6H48.6665H49.6665V22.4H48.6665ZM26.2665 48V47H23.0665V48V49H26.2665V48ZM0.666504 25.6H1.6665V22.4H0.666504H-0.333496V25.6H0.666504ZM23.0665 48V47C19.1296 47 16.2371 46.9992 13.9528 46.8126C11.6801 46.6269 10.0975 46.2622 8.76463 45.5831L8.31064 46.4741L7.85665 47.3651C9.5185 48.2119 11.3935 48.6101 13.7899 48.8059C16.1746 49.0008 19.1626 49 23.0665 49V48ZM0.666504 25.6H-0.333496C-0.333496 29.5039 -0.334274 32.4919 -0.139436 34.8766C0.0563548 37.273 0.454651 39.148 1.30141 40.8099L2.19241 40.3559L3.08342 39.9019C2.40427 38.569 2.03961 36.9864 1.85392 34.7137C1.66728 32.4294 1.6665 29.5369 1.6665 25.6H0.666504ZM8.31064 46.4741L8.76463 45.5831C6.31852 44.3367 4.32977 42.348 3.08342 39.9019L2.19241 40.3559L1.30141 40.8099C2.73951 43.6323 5.03421 45.927 7.85665 47.3651L8.31064 46.4741ZM48.6665 25.6H47.6665C47.6665 29.5369 47.6657 32.4294 47.4791 34.7137C47.2934 36.9864 46.9287 38.569 46.2496 39.9019L47.1406 40.3559L48.0316 40.8099C48.8784 39.148 49.2767 37.273 49.4724 34.8766C49.6673 32.4919 49.6665 29.5039 49.6665 25.6H48.6665ZM26.2665 48V49C30.1704 49 33.1584 49.0008 35.5431 48.8059C37.9395 48.6101 39.8145 48.2119 41.4764 47.3651L41.0224 46.4741L40.5684 45.5831C39.2355 46.2622 37.6529 46.6269 35.3802 46.8126C33.0959 46.9992 30.2034 47 26.2665 47V48ZM47.1406 40.3559L46.2496 39.9019C45.0032 42.348 43.0145 44.3367 40.5684 45.5831L41.0224 46.4741L41.4764 47.3651C44.2988 45.927 46.5935 43.6323 48.0316 40.8099L47.1406 40.3559ZM26.2665 0V1C30.2034 1 33.0959 1.00078 35.3802 1.18742C37.6529 1.3731 39.2355 1.73776 40.5684 2.41692L41.0224 1.52591L41.4764 0.634902C39.8145 -0.211853 37.9395 -0.610149 35.5431 -0.80594C33.1584 -1.00078 30.1704 -1 26.2665 -1V0ZM48.6665 22.4H49.6665C49.6665 18.4961 49.6673 15.5081 49.4724 13.1234C49.2767 10.727 48.8784 8.85199 48.0316 7.19014L47.1406 7.64413L46.2496 8.09812C46.9287 9.43104 47.2934 11.0136 47.4791 13.2863C47.6657 15.5706 47.6665 18.4631 47.6665 22.4H48.6665ZM41.0224 1.52591L40.5684 2.41692C43.0145 3.66327 45.0032 5.65202 46.2496 8.09812L47.1406 7.64413L48.0316 7.19014C46.5935 4.36771 44.2988 2.073 41.4764 0.634902L41.0224 1.52591ZM23.0665 0V-1C19.1626 -1 16.1746 -1.00078 13.7899 -0.80594C11.3935 -0.610149 9.5185 -0.211853 7.85665 0.634902L8.31064 1.52591L8.76463 2.41692C10.0975 1.73776 11.6801 1.3731 13.9528 1.18742C16.2371 1.00078 19.1296 1 23.0665 1V0ZM0.666504 22.4H1.6665C1.6665 18.4631 1.66728 15.5706 1.85392 13.2863C2.03961 11.0136 2.40427 9.43104 3.08342 8.09812L2.19241 7.64413L1.30141 7.19014C0.454651 8.85199 0.0563548 10.727 -0.139436 13.1234C-0.334274 15.5081 -0.333496 18.4961 -0.333496 22.4H0.666504ZM8.31064 1.52591L7.85665 0.634902C5.03421 2.073 2.73951 4.36771 1.30141 7.19014L2.19241 7.64413L3.08342 8.09812C4.32977 5.65202 6.31852 3.66327 8.76463 2.41692L8.31064 1.52591Z" mask="url(#path-1-inside-1_399_417)"/></clipPath><pattern id="pattern0_399_417" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0_399_417" transform="matrix(0.0277361 0 0 0.0332986 -0.156584 -0.294995)"/>
+                          </pattern>
+                          <image id="image0_399_417" width="138" height="58" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+                      </defs>
+                      </svg>
+
+                    <!-- </div> -->
+                  </a>
+                  <div class="project-text">
+                    <h4 class="project-title">
+                        <a href="https://getatra.com/" target="_blank">Atra App</a>
+                    </h4>
+                    <p class="project-description">
+                      AI-powered solution for efficient restoration.
+                    </p>
+                  </div>
+                </div>
+                <div class="project-stats">
+                  <div class="project-stat">
+                    <span class="project-stat-value">12K+</span>
+                    <span class="project-stat-label">User Base</span>
+                  </div>
+                  <div class="project-stat-divider" aria-hidden="true"></div>
+                  <div class="project-stat">
+                    <span class="project-stat-value">$6.1M</span>
+                    <span class="project-stat-label">Txn Volume</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Fourth Row -->
+        <div class="bento-row fourth-row" id="contact">
+          <!-- Contact Section -->
+          <div class="bento-card reveal contact-card">
+            <div class="contact-content">
+              <h2 class="contact-title">Let's<br />Talk</h2>
+              <div class="contact-actions">
+                <a href="mailto:" class="contact-btn email-btn">
+                  <div class="contact-icon">
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M4 17.3333H12V14.6666H4V2.46086C4 2.09267 4.29848 1.79419 4.66667 1.79419C4.779 1.79419 4.88952 1.82258 4.98795 1.87671L29.6045 15.4158C29.9272 15.5933 30.0449 15.9986 29.8675 16.3213C29.8065 16.4321 29.7153 16.5233 29.6045 16.5842L4.98795 30.1233C4.66533 30.3008 4.25996 30.183 4.08252 29.8605C4.02839 29.762 4 29.6516 4 29.5392V17.3333Z"
+                        fill="#1B3A5F" />
+                    </svg>
+                  </div>
+                  <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank" class="contact-btn linkedin-btn" aria-label="Harrison Ebube on LinkedIn">
+                  <div class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                      <path d="M9.2543 6.66665C9.25381 7.7524 8.5951 8.72944 7.58878 9.13705C6.58246 9.54468 5.42949 9.30148 4.67353 8.52215C3.91757 7.7428 3.70959 6.58295 4.14766 5.58951C4.58574 4.59607 5.58238 3.96741 6.66763 3.99999C8.10906 4.04325 9.25495 5.22457 9.2543 6.66665ZM9.3343 11.3067H4.00096V27.9999H9.3343V11.3067ZM17.761 11.3067H12.4543V27.9999H17.7077V19.2399C17.7077 14.3599 24.0677 13.9066 24.0677 19.2399V27.9999H29.3343V17.4266C29.3343 9.19999 19.921 9.50665 17.7077 13.5466L17.761 11.3067Z" fill="white"/>
+                    </svg>
+                  </div>
+                </a>
+                <!-- <button class="contact-btn twitter-btn">
+                  <div class="contact-icon">
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.5834 4.08325L16.9211 11.6989L11.1608 4.08325H2.81787L12.7863 17.1182L3.33854 27.9166H7.3841L14.6759 19.5847L21.0486 27.9166H29.1848L18.7935 14.1789L27.6266 4.08325H23.5834ZM22.1644 25.4966L7.53931 6.37615H9.94343L24.4047 25.4966H22.1644Z"
+                        fill="white" />
+                    </svg>
+                  </div>
+                </button> -->
+              </div>                
+            </div>
+            <div class="contact-right">
+            </div>
+          </div>
+
+          <!-- Footer Section -->
+          <div class="bento-card reveal footer-card">
+            <div class="footer-content">
+              <div class="footer-text">
+                <h3 class="footer-title">
+                  Your Next Big Idea<br />Our Next Success
+                </h3>
+                <p class="footer-description">
+                  My expertise is at your disposal. Let's discuss how we can
+                  collaborate to build your next exceptional project.
+                </p>
+              </div>
+              <div class="footer-divider"></div>
+              <div class="footer-copyright">
+                <p>© 2026. All rights Reserved. | Harrison Ebube</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
